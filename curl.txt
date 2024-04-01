@@ -1,0 +1,13 @@
+curl --location 'http://0.0.0.0:9090/ticket/bookTickets' \
+--header 'Content-Type: application/json' \
+--data '[{
+     "id":1,
+     "amount":239.8,
+     "catagory":"economy"
+},{
+     "id":2,
+     "amount":240,
+     "catagory":"bussiness"
+}]'
+
+
